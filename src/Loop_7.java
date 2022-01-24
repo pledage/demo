@@ -3,8 +3,8 @@ import java.time.LocalDateTime;
 import java.util.Date;
 
 /*
- * for ¹®
- * ÇöÀç ½Ã°£À» Ãâ·ÂÇØº¸¼¼¿ä
+ * for ë¬¸
+ * í˜„ì¬ ì‹œê°„ì„ ì¶œë ¥í•´ë³´ì„¸ìš”
  * 
  */
 public class Loop_7 {

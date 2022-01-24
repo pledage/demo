@@ -4,13 +4,13 @@ public class Variable3 {
 	public static void main(String[] args) {
 
 		{
-			int i;//º¯¼ö¼±¾ð
-			i = 1;//º¯¼öÃÊ±â°ª
+			int i;//ë³€ìˆ˜ì„ ì–¸
+			i = 1;//ë³€ìˆ˜ì´ˆê¸°ê°’
 			System.out.println(i);
 		}
 		{
-			int i;//º¯¼ö¼±¾ð
-			i = 1;//º¯¼öÃÊ±â°ª
+			int i;//ë³€ìˆ˜ì„ ì–¸
+			i = 1;//ë³€ìˆ˜ì´ˆê¸°ê°’
 			System.out.println(i);
 
 		}

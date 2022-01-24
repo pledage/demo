@@ -4,9 +4,9 @@ import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server extends Thread/*¾²·¹µå¸¦ »ó¼Ó ¹Ş°Ú´Ù*/ {
+public class Server extends Thread/*ì“°ë ˆë“œë¥¼ ìƒì† ë°›ê² ë‹¤*/ {
 
-	final static int SERVER_PORT =1225;// ¼­¹ö¶û Æ÷Æ®¸¦ ¸ÂÃç Áà¾ß ÇÑ´Ù.
+	final static int SERVER_PORT =1225;// ì„œë²„ë‘ í¬íŠ¸ë¥¼ ë§ì¶° ì¤˜ì•¼ í•œë‹¤.
 	final static String MESSAGE_TO_CLIENT = "Hello, Client";
 
 	public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Server extends Thread/*¾²·¹µå¸¦ »ó¼Ó ¹Ş°Ú´Ù*/ {
 			serverSocket = new ServerSocket(SERVER_PORT);
 			
 			while(true) {
-				System.out.println("socket ¿¬°á ´ë±â");
+				System.out.println("socket ì—°ê²° ëŒ€ê¸°");
 				Socket socket = serverSocket.accept();
 				System.out.println("host:"+socket.getInetAddress());
 				

@@ -2,7 +2,7 @@
 public class Operator2 {
 
 	public static void main(String[] args) {
-		// »ê¼ú¿¬»êÀÚ + - */ %(³ª¸ÓÁö°ª)
+		// ì‚°ìˆ ì—°ì‚°ì + - */ %(ë‚˜ë¨¸ì§€ê°’)
 		double i= 10;
 		int j = 3;
 		

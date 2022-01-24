@@ -1,5 +1,5 @@
 /*
- * ¹®ÀÚ¿­ String Å¬·¡½º
+ * ë¬¸ìì—´ String í´ë˜ìŠ¤
  * 
  */
 public class StringExam {
@@ -8,7 +8,7 @@ public class StringExam {
 	    String str = new String("ABC");
 		String str2 = new String("ABC");
 		System.out.println(str == str2);
-		System.out.println(str.equals(str2));//¹®ÀÚ¿Í ¹®ÀÚ¿­ ºñ±³ÇÑµÚ °°Àº°Å´Ù ¶ó°í ¾Ë·Á ÁØ´Ù.¹®ÀÚ¿­¿¡¼­´Â == ¸»°í equals (·¹ÆÛ·±½º¿¡¼­ ºñ±³ÇÒ¶§)¸¦ ¾´´Ù
+		System.out.println(str.equals(str2));//ë¬¸ìì™€ ë¬¸ìì—´ ë¹„êµí•œë’¤ ê°™ì€ê±°ë‹¤ ë¼ê³  ì•Œë ¤ ì¤€ë‹¤.ë¬¸ìì—´ì—ì„œëŠ” == ë§ê³  equals (ë ˆí¼ëŸ°ìŠ¤ì—ì„œ ë¹„êµí• ë•Œ)ë¥¼ ì“´ë‹¤
 		System.out.println(str2);
 
 	}

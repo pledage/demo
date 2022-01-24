@@ -15,11 +15,11 @@ public class ArrayExam7 {
 			}
 		}
 		if(rowCntChk != (15*3)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int colCntChk = 0;
-		//¼¼·Î°ª 15Ã¼Å©
+		//ì„¸ë¡œê°’ 15ì²´í¬
 		for (int i = 0; i < arr.length; i++) {
 			
 			for(int j = 0; j < arr[i].length; j++ ) {
@@ -27,7 +27,7 @@ public class ArrayExam7 {
 			}
 		}
 		if(colCntChk!=(15*3)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int leftTop = 0;
@@ -39,7 +39,7 @@ public class ArrayExam7 {
 			}
 		}
 		if(leftTop != 15) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int rightTop = 0;
@@ -52,10 +52,10 @@ public class ArrayExam7 {
 			}
 		}
 		if(rightTop != 15) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
-		System.out.println("Á¤´äÀÔ´Ï´Ù.ÃàÇÏÃàÇÏ");
+		System.out.println("ì •ë‹µì…ë‹ˆë‹¤.ì¶•í•˜ì¶•í•˜");
 	}
 
 }

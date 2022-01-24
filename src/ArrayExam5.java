@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 /*
- * ±¹,¿µ,¼ö ÃÑÇÕ, ¼ºÀû Ã³¸® ÇÁ·Î±×·¥À» ÀÛ¼º ÇÏ½Ã¿À
+ * êµ­,ì˜,ìˆ˜ ì´í•©, ì„±ì  ì²˜ë¦¬ í”„ë¡œê·¸ë¨ì„ ì‘ì„± í•˜ì‹œì˜¤
  */
 public class ArrayExam5 {
 	/*
-	 * ¹è¿­Àº °°Àº Å¸ÀÔ¸¸ ÀúÀåÀÌ µÈ´Ù.
-	 * ÇÑ¹ø»ı¼ºµÈ ¹è¿­Àº ±æÀÌ¸¦ ´Ã¸®°Å³ª ÁÙÀÏ¼ö ¾ø´Ù.
+	 * ë°°ì—´ì€ ê°™ì€ íƒ€ì…ë§Œ ì €ì¥ì´ ëœë‹¤.
+	 * í•œë²ˆìƒì„±ëœ ë°°ì—´ì€ ê¸¸ì´ë¥¼ ëŠ˜ë¦¬ê±°ë‚˜ ì¤„ì¼ìˆ˜ ì—†ë‹¤.
 	 */
 
 	public static void main(String[] args) {
@@ -15,17 +15,17 @@ public class ArrayExam5 {
 		
 		
 		int [] grade = new int[5];
-	    System.out.println(grade.length);//length µ¥ÀÌÅÍ ±æÀÌ¸¦ ³ªÅ¸³»ÁØ´Ù.
-	    System.out.println("±¹¾î¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+	    System.out.println(grade.length);//length ë°ì´í„° ê¸¸ì´ë¥¼ ë‚˜íƒ€ë‚´ì¤€ë‹¤.
+	    System.out.println("êµ­ì–´ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”.");
 		grade[0] = scan.nextInt();
-		System.out.println("¿µ¾î¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ì˜ì–´ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”.");
 		grade[1] = scan.nextInt();
-		System.out.println("¼öÇĞ¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ìˆ˜í•™ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”.");
 		grade[2] = scan.nextInt();
 		grade[3] = grade[0] +grade[1] + grade[2];
 		grade[4] = grade[3] /3;
-		System.out.printf("±¹¾î:%d, ¿µ¾î:%d, ¼öÇĞ:%d",grade[0], grade[1], grade[2] );
-		System.out.printf("ÃÑÁ¡:%d, Æò±Õ:%d", grade[3], grade[4] );
+		System.out.printf("êµ­ì–´:%d, ì˜ì–´:%d, ìˆ˜í•™:%d",grade[0], grade[1], grade[2] );
+		System.out.printf("ì´ì :%d, í‰ê· :%d", grade[3], grade[4] );
 		
 	}
 

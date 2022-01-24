@@ -1,5 +1,5 @@
 /*
- * ±¹,¿µ,¼ö ÃÑÇÕ, ¼ºÀû Ã³¸® ÇÁ·Î±×·¥À» ÀÛ¼º ÇÏ½Ã¿À
+ * êµ­,ì˜,ìˆ˜ ì´í•©, ì„±ì  ì²˜ë¦¬ í”„ë¡œê·¸ë¨ì„ ì‘ì„± í•˜ì‹œì˜¤
  */
 public class ArrayExam4 {
 
@@ -15,8 +15,8 @@ public class ArrayExam4 {
 		math = 90;
 		total = kor +eng + math;
 		avg = total /3;
-		System.out.printf("±¹¾î:%d, ¿µ¾î:%d, ¼öÇĞ:%d",kor, eng, math );
-		System.out.printf("ÃÑÁ¡:%d, Æò±Õ:%d", total, avg );
+		System.out.printf("êµ­ì–´:%d, ì˜ì–´:%d, ìˆ˜í•™:%d",kor, eng, math );
+		System.out.printf("ì´ì :%d, í‰ê· :%d", total, avg );
 		
 	}
 

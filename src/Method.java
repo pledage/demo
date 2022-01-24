@@ -2,7 +2,7 @@
 public class Method {
 
 	public static void aaa() {
-		System.out.println("aaa()ÇÔ¼ö°¡ È£ÃâµÇ¾ú½À´Ï´Ù.");
+		System.out.println("aaa()í•¨ìˆ˜ê°€ í˜¸ì¶œë˜ì—ˆìŠµë‹ˆë‹¤.");
 
 	}
 

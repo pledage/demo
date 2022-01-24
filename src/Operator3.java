@@ -2,14 +2,14 @@
 public class Operator3 {
 
 	public static void main(String[] args) {
-		//+¿¬»êÀÚ ¹®ÀÚ¿­À» ¿¬°áÇØÁÖ´Â ¿¬»êÀÚ
-		//¿ì¼±¼øÀ§
+		//+ì—°ì‚°ìž ë¬¸ìžì—´ì„ ì—°ê²°í•´ì£¼ëŠ” ì—°ì‚°ìž
+		//ìš°ì„ ìˆœìœ„
 		System.out.println("1"+(1+2+3));
 		
-		//º¯¼ö¼±¾ð
-		int i, j, k;//Á¤¼öÇü Å¸ÀÔÀÌ¶ó°í ÁöÁ¤ÇÒ¼ö ÀÖ´Ù.
-		//´ëÀÔ ¿ì¼± ¼øÀ§
-		i = j = k = 5;//´ëÀÔ¿¬»êÀÚ´Â ¿ìÃøºÎÅÍ ´ëÀÔÀ» ½ÃÀÛÇÑ´Ù.
+		//ë³€ìˆ˜ì„ ì–¸
+		int i, j, k;//ì •ìˆ˜í˜• íƒ€ìž…ì´ë¼ê³  ì§€ì •í• ìˆ˜ ìžˆë‹¤.
+		//ëŒ€ìž… ìš°ì„  ìˆœìœ„
+		i = j = k = 5;//ëŒ€ìž…ì—°ì‚°ìžëŠ” ìš°ì¸¡ë¶€í„° ëŒ€ìž…ì„ ì‹œìž‘í•œë‹¤.
 	   
 	}
 

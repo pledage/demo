@@ -1,16 +1,16 @@
 /*
- * n*n*¸¶¹æÁø
+ * n*n*ë§ˆë°©ì§„
  */
 public class ArrayExam9 {
 
 	public static void main(String[] args) {
-		// ¸¶¹æÁø ¼ö
+		// ë§ˆë°©ì§„ ìˆ˜
 		
 		int cube = 3;
 		int sum = 0;
 		int chkNUm = 0;
 		
-		//ÀüÃ¼ÇÕÀ» ±¸ÇÏÀÚ
+		//ì „ì²´í•©ì„ êµ¬í•˜ì
 		for(int i = 1; i <= (cube*cube); i++) {
 			sum += i;
 		}
@@ -30,11 +30,11 @@ public class ArrayExam9 {
 			}
 		}
 		if(rowCntChk != (chkNUm*cube)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int colCntChk = 0;
-		//¼¼·Î°ª 15Ã¼Å©
+		//ì„¸ë¡œê°’ 15ì²´í¬
 		for (int i = 0; i < arr.length; i++) {
 			
 			for(int j = 0; j < arr[i].length; j++ ) {
@@ -42,7 +42,7 @@ public class ArrayExam9 {
 			}
 		}
 		if(colCntChk!=(chkNUm*cube)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int leftTop = 0;
@@ -54,7 +54,7 @@ public class ArrayExam9 {
 			}
 		}
 		if(leftTop != chkNUm) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int rightTop = 0;
@@ -67,10 +67,10 @@ public class ArrayExam9 {
 			}
 		}
 		if(rightTop != chkNUm) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
-		System.out.println("Á¤´äÀÔ´Ï´Ù.ÃàÇÏÃàÇÏ");
+		System.out.println("ì •ë‹µì…ë‹ˆë‹¤.ì¶•í•˜ì¶•í•˜");
 	}
 
 }

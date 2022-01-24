@@ -2,11 +2,11 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /*
- * ±¹,¿µ,¼ö ÃÑÇÕ, ¼ºÀû Ã³¸® ÇÁ·Î±×·¥À» ÀÛ¼º ÇÏ½Ã¿À
+ * êµ­,ì˜,ìˆ˜ ì´í•©, ì„±ì  ì²˜ë¦¬ í”„ë¡œê·¸ëž¨ì„ ìž‘ì„± í•˜ì‹œì˜¤
  */
 public class ArrayExam6 {
 	/*
-	 * ¹è¿­Àº °°Àº Å¸ÀÔ¸¸ ÀúÀåÀÌ µÈ´Ù. ÇÑ¹ø»ý¼ºµÈ ¹è¿­Àº ±æÀÌ¸¦ ´Ã¸®°Å³ª ÁÙÀÏ¼ö ¾ø´Ù.
+	 * ë°°ì—´ì€ ê°™ì€ íƒ€ìž…ë§Œ ì €ìž¥ì´ ëœë‹¤. í•œë²ˆìƒì„±ëœ ë°°ì—´ì€ ê¸¸ì´ë¥¼ ëŠ˜ë¦¬ê±°ë‚˜ ì¤„ì¼ìˆ˜ ì—†ë‹¤.
 	 */
 
 	public static void main(String[] args) throws IOException {

@@ -3,8 +3,8 @@ import java.time.LocalDateTime;
 import java.util.Date;
 
 /*
- * for ¹®
- * ÇÇº¸³ªÄ¡¼ö¿­À» Ãâ·ÂÇÏ½Ã¿À. ÃÑ 10¹ø¸¸ ¹İº¹ÇÏ¼¼¿ä.
+ * for ë¬¸
+ * í”¼ë³´ë‚˜ì¹˜ìˆ˜ì—´ì„ ì¶œë ¥í•˜ì‹œì˜¤. ì´ 10ë²ˆë§Œ ë°˜ë³µí•˜ì„¸ìš”.
  * 
  */
 public class Loop12 {
@@ -12,7 +12,7 @@ public class Loop12 {
 	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
-			// i °ªÀÌ 5ÀÌ¸é(ifÁ¶°Ç¹®) ¸ØÃç¶ó
+			// i ê°’ì´ 5ì´ë©´(ifì¡°ê±´ë¬¸) ë©ˆì¶°ë¼
 			if (i == 5) {
 				break;
 			}

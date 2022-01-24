@@ -1,5 +1,5 @@
 /*
- * ¹®ÀÚ¿­ String Å¬·¡½º
+ * ë¬¸ìì—´ String í´ë˜ìŠ¤
  * 
  */
 public class StringExam2 {

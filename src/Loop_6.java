@@ -1,21 +1,21 @@
 /*
- * for ¹®
- * ÇöÀç ½Ã°£À» Ãâ·ÂÇØº¸¼¼¿ä
+ * for ë¬¸
+ * í˜„ì¬ ì‹œê°„ì„ ì¶œë ¥í•´ë³´ì„¸ìš”
  * 
  */
 public class Loop_6 {
 
 	public static void main(String[] args) {
 	    int sec = (60*60*14)+(32*60);
-		//System.out.println(sec);//ÀüÃ¼ÃÊ
+		//System.out.println(sec);//ì „ì²´ì´ˆ
 		
 		while (true) {
 			
 			sec++;
 
-			System.out.print((sec)/(60*60)+"½Ã");//½Ã
-			System.out.print(((sec)%(60*60))/60 + "ºĞ");//ºĞ
-			System.out.println(((sec)%(60*60))%60 + "ÃÊ");//ÃÊ
+			System.out.print((sec)/(60*60)+"ì‹œ");//ì‹œ
+			System.out.print(((sec)%(60*60))/60 + "ë¶„");//ë¶„
+			System.out.println(((sec)%(60*60))%60 + "ì´ˆ");//ì´ˆ
 			
 			
 			

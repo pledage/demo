@@ -12,9 +12,9 @@ public class Variable2 {
 		float f =.0F;
 		boolean sw = true;
 		boolean sw2 = false;
-		System.out.println("±Û\tÀÚ");
-		System.out.println("±Û\nÀÚ");
-		System.out.println("±Û\"ÀÚ");
-		System.out.println("±Û\\ÀÚ");
+		System.out.println("ê¸€\tì");
+		System.out.println("ê¸€\nì");
+		System.out.println("ê¸€\"ì");
+		System.out.println("ê¸€\\ì");
 	}
 }

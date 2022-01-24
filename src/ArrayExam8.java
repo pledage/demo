@@ -1,5 +1,5 @@
 /*
- * 5*5¸¶¹æÁø
+ * 5*5ë§ˆë°©ì§„
  */
 public class ArrayExam8 {
 
@@ -20,11 +20,11 @@ public class ArrayExam8 {
 			}
 		}
 		if(rowCntChk != (65*5)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int colCntChk = 0;
-		//¼¼·Î°ª 15Ã¼Å©
+		//ì„¸ë¡œê°’ 15ì²´í¬
 		for (int i = 0; i < arr.length; i++) {
 			
 			for(int j = 0; j < arr[i].length; j++ ) {
@@ -32,7 +32,7 @@ public class ArrayExam8 {
 			}
 		}
 		if(colCntChk!=(65*5)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int leftTop = 0;
@@ -44,7 +44,7 @@ public class ArrayExam8 {
 			}
 		}
 		if(leftTop != 65) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int rightTop = 0;
@@ -57,10 +57,10 @@ public class ArrayExam8 {
 			}
 		}
 		if(rightTop != 65) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
-		System.out.println("Á¤´äÀÔ´Ï´Ù.ÃàÇÏÃàÇÏ");
+		System.out.println("ì •ë‹µì…ë‹ˆë‹¤.ì¶•í•˜ì¶•í•˜");
 	}
 
 }

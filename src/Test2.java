@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 /*
- * ·Î¶Ç 
+ * ë¡œë˜ 
  */
 public class Test2 {
 
@@ -13,10 +13,10 @@ public class Test2 {
 				hs.add((int) (Math.random() * 45) + 1);
 				
 				if (hs.size() == 6) {
-					break;// ¹İº¹¹®À» ºüÁ®³ª°£´Ù.
+					break;// ë°˜ë³µë¬¸ì„ ë¹ ì ¸ë‚˜ê°„ë‹¤.
 				}
 			}
-			//2022-01-15ÀÏ ·Î¶Ç1µî¹øÈ£ 6°³ Ãâ·Â
+			//2022-01-15ì¼ ë¡œë˜1ë“±ë²ˆí˜¸ 6ê°œ ì¶œë ¥
 			System.out.println(hs);
 			
 		}

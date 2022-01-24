@@ -3,18 +3,18 @@ import java.time.LocalDateTime;
 import java.util.Date;
 
 /*
- * for ¹®
- * ÇöÀç ½Ã°£À» Ãâ·ÂÇØº¸¼¼¿ä
+ * for ë¬¸
+ * í˜„ì¬ ì‹œê°„ì„ ì¶œë ¥í•´ë³´ì„¸ìš”
  * 
  */
 public class Loop_8 {
 
 	public static void main(String[] args) {
-		int odd = 0;// È¦¼öÇÕ
-		int even = 0;// Â¦¼öÇÕ
+		int odd = 0;// í™€ìˆ˜í•©
+		int even = 0;// ì§ìˆ˜í•©
 		int i = 1;
 		while ( i < 11 ) {
-			// È¦¼öÀÌ¸é odd¿¡ ÀúÀå
+			// í™€ìˆ˜ì´ë©´ oddì— ì €ì¥
 			if (i % 2 == 1) {
 				odd += i;
 			} else {
@@ -23,9 +23,9 @@ public class Loop_8 {
 
 		}
 
-		System.out.println("ÃÑÇÕ:" + (odd + even));
-		System.out.println("È¦¼öÇÕ:" + odd);
-		System.out.println("Â¦¼öÇÕ:" + even);
+		System.out.println("ì´í•©:" + (odd + even));
+		System.out.println("í™€ìˆ˜í•©:" + odd);
+		System.out.println("ì§ìˆ˜í•©:" + even);
 		i++;
 
 	}

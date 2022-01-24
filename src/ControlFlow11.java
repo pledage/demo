@@ -4,19 +4,19 @@ import java.util.Scanner;
  * @author smart00
  * 
  * 
- * ¿¬Â÷ÇÁ·Î±×·¥À»(¿ùº°) ÀÛ¼ºÇÏ½Ã¿À.
+ * ì—°ì°¨í”„ë¡œê·¸ë¨ì„(ì›”ë³„) ì‘ì„±í•˜ì‹œì˜¤.
  */
 public class ControlFlow11 {
 
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
-		System.out.println("³âÂ÷¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ë…„ì°¨ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 
-		int longevity = 1;// ³ª´Â 20°³¿ùÂ÷´Ù.
+		int longevity = 1;// ë‚˜ëŠ” 20ê°œì›”ì°¨ë‹¤.
 
 		do {
-			System.out.println("usage:¾ç¼ö°ªÀ» ÀÔ·ÂÇÏ¼Å¾ßÇÕ´Ï´Ù.");
+			System.out.println("usage:ì–‘ìˆ˜ê°’ì„ ì…ë ¥í•˜ì…”ì•¼í•©ë‹ˆë‹¤.");
 			longevity = scan.nextInt();
 		} while (longevity < 1);
 		
@@ -27,49 +27,49 @@ public class ControlFlow11 {
 
 		switch (longevityYear) {
 		case 1:
-			System.out.println("¿¬Â÷°¹¼ö°¡ "+(longevity-1)+"°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ "+(longevity-1)+"ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 2:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 15°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 15ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 3:
 		case 4:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 16°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 16ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 5:
 		case 6:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 17°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 17ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 7:
 		case 8:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 18°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 18ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 9:
 		case 10:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 19°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 19ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 11:
 		case 12:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 20°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 20ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 13:
 		case 14:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 21°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 21ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 15:
 		case 16:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 22°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 22ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 17:
 		case 18:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 23°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 23ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		case 19:
 		case 20:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 24°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 24ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		default:
-			System.out.println("¿¬Â÷°¹¼ö°¡ 25°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ 25ê°œ ì…ë‹ˆë‹¤.");
 			break;
 		}
 

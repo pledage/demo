@@ -1,19 +1,19 @@
 /**
- * ³»°¡¸¸µç Ã¹¹øÂ° ÇÁ·Î±×·¥
+ * ë‚´ê°€ë§Œë“  ì²«ë²ˆì§¸ í”„ë¡œê·¸ë¨
  * @author smart20
  *
  */
 public class hello {
-	/**Á¦ÀÏ ¹øÀú È£ÃâµÇ´Â main ÇÔ¼ö
+	/**ì œì¼ ë²ˆì € í˜¸ì¶œë˜ëŠ” main í•¨ìˆ˜
 	 * */
 
 	public static void main(String[] args){
 		new hello();
-		/* ÇÑÁÙÁÖ¼® */
+		/* í•œì¤„ì£¼ì„ */
 		/*
-		 * ¿©·¯ÁÙ ÁÖ¼®
+		 * ì—¬ëŸ¬ì¤„ ì£¼ì„
 		 */
-		System.out./* ÇÑÁÙÁÖ¼® */println(/* ÇÑÁÙÁÖ¼® */"Hello.welcome to the java world");
+		System.out./* í•œì¤„ì£¼ì„ */println(/* í•œì¤„ì£¼ì„ */"Hello.welcome to the java world");
 
 	}
 	

@@ -1,12 +1,12 @@
 /**
- * ³»°¡¸¸µç Ã¹¹øÂ° ÇÁ·Î±×·¥
+ * ë‚´ê°€ë§Œë“  ì²«ë²ˆì§¸ í”„ë¡œê·¸ë¨
  * 
  * @author smart20
  *
  */
 public class hello2 {
 	/**
-	 * Á¦ÀÏ ¹øÀú È£ÃâµÇ´Â main ÇÔ¼ö
+	 * ì œì¼ ë²ˆì € í˜¸ì¶œë˜ëŠ” main í•¨ìˆ˜
 	 */
 
 	public static void main(String[] args) {

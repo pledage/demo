@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 
 public class Client {
 	
-	final/*»ó¼ö¸¦ ¸¸µé¶§ »ç¿ë*/ static String SERVER_IP/*»ó¼öÀÇ º¯¼ö¸íÀº ¹«Á¶°Ç ´ë¹®ÀÚ ´Ü¾î¿Í ´Ü¾î»çÀÌ ¾ğ´õ¹Ù Ãß°¡*/ = "127.0.0.1";
+	final/*ìƒìˆ˜ë¥¼ ë§Œë“¤ë•Œ ì‚¬ìš©*/ static String SERVER_IP/*ìƒìˆ˜ì˜ ë³€ìˆ˜ëª…ì€ ë¬´ì¡°ê±´ ëŒ€ë¬¸ì ë‹¨ì–´ì™€ ë‹¨ì–´ì‚¬ì´ ì–¸ë”ë°” ì¶”ê°€*/ = "127.0.0.1";
 	final static int SERVER_PORT =1225;
 	final static String MESSAGE_TO_SERVER = "Hi, Server";
 
@@ -14,7 +14,7 @@ public class Client {
 		Socket socket = null;
 		try {
 			socket = new Socket(SERVER_IP, SERVER_PORT);
-			System.out.println("socket ¿¬°á");
+			System.out.println("socket ì—°ê²°");
 			
 			InputStream is = socket.getInputStream();
 		    OutputStream os = socket.getOutputStream();
@@ -32,7 +32,7 @@ public class Client {
 		    is. close();
 		    os. close();
 		    
-			socket.close();//¼ÒÄÏÀº ¿­¸é ¹İµíÀÌ ´İ¾Æ Áà¾ß ÇÑ´Ù.
+			socket.close();//ì†Œì¼“ì€ ì—´ë©´ ë°˜ë“¯ì´ ë‹«ì•„ ì¤˜ì•¼ í•œë‹¤.
 		}  catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

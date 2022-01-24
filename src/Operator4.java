@@ -2,17 +2,17 @@
 public class Operator4 {
 
 	public static void main(String[] args) {
-		//Áõ°¨¿¬»êÀÚ ++, --
+		//ì¦ê°ì—°ì‚°ì ++, --
 		int i = 0;
 		i++;
 		--i;
 		System.out.println(++i);
 		
-		//ºÎÁ¤¿¬»êÀÚ !
+		//ë¶€ì •ì—°ì‚°ì !
 		boolean b =false;
 		System.out.println(!b);
 		
-		//ºñ±³¿¬»êÀÚ >, >=, <, <=, ==< != °á°ú´Â boolean
+		//ë¹„êµì—°ì‚°ì >, >=, <, <=, ==< != ê²°ê³¼ëŠ” boolean
 		int m = 10, n = 5;
 		System.out.println(m > n);
 		System.out.println(m >= n);
@@ -22,7 +22,7 @@ public class Operator4 {
 		System.out.println(m != n);
 		System.out.println("----------------------------");
 		
-		//³í¸®¿¬»êÀÚ( and[&&] , or[||], not[!])
+		//ë…¼ë¦¬ì—°ì‚°ì( and[&&] , or[||], not[!])
 		System.out.println(false && false);
 		System.out.println(false && true);
 		System.out.println(true && false);
@@ -36,7 +36,7 @@ public class Operator4 {
 		System.out.println(! false);
 		System.out.println(! true);
 		
-		//ºñÆ®¿¬»êÀÚ and[&] , or[|], not [~], xor[^] shift[<<], [>>],[ >>>]
+		//ë¹„íŠ¸ì—°ì‚°ì and[&] , or[|], not [~], xor[^] shift[<<], [>>],[ >>>]
 		byte bitNum1 = 15;
 		byte bitNum2 = 3;
 		System.out.println(bitNum1 & bitNum2);

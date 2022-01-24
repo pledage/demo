@@ -1,6 +1,6 @@
 /*
- * for ¹®
- * 2022³â 1¿ù´Ş ÀÏÀÚ¸¦ Ãâ·ÂÇÏ½Ã¿À(1~31) ¹İº¹ÇØ¼­ Ãâ·ÂÇØº¸¼¼¿ä
+ * for ë¬¸
+ * 2022ë…„ 1ì›”ë‹¬ ì¼ìë¥¼ ì¶œë ¥í•˜ì‹œì˜¤(1~31) ë°˜ë³µí•´ì„œ ì¶œë ¥í•´ë³´ì„¸ìš”
  * 
  */
 public class Loop5 {
@@ -26,7 +26,7 @@ public class Loop5 {
 				break;
 			}
 			
-			System.out.print(j + "¿ù ");
+			System.out.print(j + "ì›” ");
 			for (int i = 1; i <= lastdayOfMonth; i++) {
 				System.out.print(i + " ");
 			}

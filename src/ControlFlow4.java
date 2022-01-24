@@ -2,17 +2,17 @@
 public class ControlFlow4 {
 
 	public static void main(String[] args) {
-		// if ¹®
+		// if ë¬¸
 		int i = 1;
 		
 		switch (i) {
-		case 1: System.out. println("1ÀÔ´Ï´Ù."); break;
-		case 2: System.out. println("2ÀÔ´Ï´Ù."); break;
-		case 3: System.out. println("3ÀÔ´Ï´Ù."); break;
-		case 4: System.out. println("4ÀÔ´Ï´Ù."); break;
-		case 5: System.out. println("5ÀÔ´Ï´Ù."); break;
+		case 1: System.out. println("1ì…ë‹ˆë‹¤."); break;
+		case 2: System.out. println("2ì…ë‹ˆë‹¤."); break;
+		case 3: System.out. println("3ì…ë‹ˆë‹¤."); break;
+		case 4: System.out. println("4ì…ë‹ˆë‹¤."); break;
+		case 5: System.out. println("5ì…ë‹ˆë‹¤."); break;
 		default:
-			System.out. println("1~5¾È¿¡ °ªÀÌ ¾Æ´Õ´Ï´Ù."); break;
+			System.out. println("1~5ì•ˆì— ê°’ì´ ì•„ë‹™ë‹ˆë‹¤."); break;
 		}
 		
 

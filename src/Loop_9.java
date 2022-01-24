@@ -3,13 +3,13 @@ import java.time.LocalDateTime;
 import java.util.Date;
 
 /*
- * for ¹®
- * ¡Ú
- * ¡Ú¡Ú
- * ¡Ú¡Ú¡Ú
- * ¡Ú¡Ú¡Ú¡Ú
- * ¡Ú¡Ú¡Ú¡Ú¡Ú
- * ÇöÀç ½Ã°£À» Ãâ·ÂÇØº¸¼¼¿ä
+ * for ë¬¸
+ * â˜…
+ * â˜…â˜…
+ * â˜…â˜…â˜…
+ * â˜…â˜…â˜…â˜…
+ * â˜…â˜…â˜…â˜…â˜…
+ * í˜„ì¬ ì‹œê°„ì„ ì¶œë ¥í•´ë³´ì„¸ìš”
  * 
  */
 public class Loop_9 {
@@ -19,7 +19,7 @@ public class Loop_9 {
 		while ( i < 5 ) {
 			int j = 0;
 			while ( j <= i ) {
-				System.out.print("¡Ú");
+				System.out.print("â˜…");
 				j++;
 			}
 			System.out.println();
